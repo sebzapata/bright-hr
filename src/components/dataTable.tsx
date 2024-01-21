@@ -90,7 +90,7 @@ export default function DataTable() {
             endDate,
             employeeName: `${absence.employee.firstName} ${absence.employee.lastName}`,
             absenceType,
-            isApproved: absence.approved ? "Yes" : "No",
+            isApproved: absence.approved ? "Yes" : "Pending",
             hasConflicts,
             employeeId: absence.employee.id,
           };
